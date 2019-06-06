@@ -1,0 +1,27 @@
+{
+  "name": "arduino-serial-client",
+  "version": "1.0.0",
+  "description": "A serial monitor reader to hit the rest backend",
+  "main": "index.ts",
+  "scripts": {
+    "start": "nodemon src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/gibsso/arduino/weather/backend.git"
+  },
+  "author": "Christof Weickhardt",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^12.0.5",
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "figlet": "^1.2.3",
+    "node-schedule": "^1.3.2",
+    "nodemon": "^1.19.1",
+    "serialport": "^7.1.5",
+    "ts-node": "^8.2.0",
+    "typescript": "^3.5.1",
+    "typescript-logging": "^0.6.3"
+  }
+}
